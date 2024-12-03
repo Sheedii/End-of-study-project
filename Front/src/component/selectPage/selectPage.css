@@ -1,0 +1,104 @@
+.selectPageCom {
+    background: #d9dfee;
+    padding-bottom: 50px;
+}
+
+.selectPage {
+    margin: 0 25% 30px 25%;
+    background: #f3f5fa;
+    border-radius: 20px;
+    height: 364px;
+    box-shadow: 0px 0px 0px 1px rgba(27, 31, 35, 0.15),
+        0px 1px 3px 0px rgba(0, 0, 0, 0.02);
+}
+
+.selectPage .changeButt {
+    position: absolute;
+    margin-top: 20px;
+}
+
+.SelectTit {
+    color: #08074e;
+    text-align: center;
+    font-family: "Hanken Grotesk-Semi Bold", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.choice{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.choice1,
+.choice2,
+.choice3{
+    background: #f9f9f9;
+    border-radius: 17.41px;
+    width: 165px;
+    height: 107px;
+    box-shadow: 0px 10.45px 20.89px -3.48px rgba(50, 50, 93, 0.25);
+    color: #08074e;
+    text-align: center;
+    font-family: "Hanken Grotesk-Regular", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 30px ;
+    cursor: pointer;
+}
+
+.lineNext{
+    margin: 10% 8% 0 8%;
+    border-style: solid;
+    border-color: #d1d3d8;
+    border-width: 1px 0 0 0;
+    height: 0px;
+}
+
+.NextBut{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 10%;
+    padding-top: 10px;
+    font-family: "Hanken Grotesk-Semi Bold", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.selectedChoice{
+    display: flex;
+    flex-direction: column;
+    background: #f9f9f9;
+    border-radius: 17.41px;
+    width: 165px;
+    height: 107px;
+    box-shadow: 0px 10.45px 20.89px -3.48px rgba(50, 50, 93, 0.25);
+    color: #08074e;
+    text-align: center;
+    font-family: "Hanken Grotesk-Semi Bold", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 30px ;
+    border-style: solid;
+    border-color: #08074e;
+    border-width: 2px;
+    cursor: pointer;
+}
+
+.checkIcon{
+    position: relative;
+    margin-left: 108% ;
+    margin-top: 6px ;
+    width: 30px;
+    height: 30px;
+}
+

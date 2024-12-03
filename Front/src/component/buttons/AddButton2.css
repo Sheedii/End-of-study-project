@@ -1,0 +1,39 @@
+.outlined-text-field-inactive,
+.outlined-text-field-inactive * {
+  box-sizing: border-box;
+}
+.outlined-text-field-inactive-b2 {
+  position: relative;
+  bottom:250px;
+  left:80px;
+}
+.rectangle-b2 {
+  border-radius: 19.28px;
+  border-style: solid;
+  border-color: #08074e;
+  border-width: 1.93px;
+  width: 94px;
+  height: 34.47px;
+  position: absolute;
+  left: 4px;
+  bottom: 0%;
+  top: -10px;
+  cursor: pointer;
+
+}
+.add-product-b2 {
+  color: #08074e;
+  text-align: left;
+  font-family: "HankenGrotesk-Regular", sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  position: absolute;
+  left: 22px;
+  bottom: 9.87px;
+  top: 9.6015625px;
+  width: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+}

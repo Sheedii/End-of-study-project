@@ -1,0 +1,13 @@
+.correlationTitle{
+    height: 70px;
+    padding-top: 20px;
+}
+
+.CorelationSearch{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    margin-right: 10%;
+    margin-top: 25px;
+}

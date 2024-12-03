@@ -1,0 +1,151 @@
+
+.fields{
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.serchInput {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 5%;
+}
+
+.rangeDate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-top: 10px;
+}
+
+.ValidationButt {
+    display: flex;
+    justify-content: center;
+}
+
+.informationProduct {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5% 0;
+}
+
+
+.dataButt {
+    position: relative;
+    overflow: hidden;
+    height: 3rem;
+    padding: 0 1rem;
+    border-radius: 1.5rem;
+    background: transparent;
+    background-size: 400%;
+    color: #08074e;
+    border: none;
+    cursor: pointer;
+    font-family: "Hanken Grotesk-Regular", sans-serif;
+    font-weight: 400;
+    z-index: 0;
+  }
+  
+  .dataButt:hover::before {
+    transform: scaleX(1);
+      border-radius: 1.5rem;
+  }
+  
+  .dataButtContent {
+    position: relative;
+    z-index: 1;
+  }
+  
+
+
+
+  .dataButt::before {
+    content: "";
+    position: absolute;
+    box-shadow: 0px 4px 70px 17px #b4b4c9;
+    top: 0;
+    left: 0;
+    transform: scaleX(0.4);
+    transform-origin: 0 50%;
+    width: 100%;
+    height: inherit;
+    border-radius: 50%;
+    background: #b4b4c9;
+    opacity: 0.5;
+    transition: all 0.475s;
+  }
+  
+  .dataButt:active{
+    background: #585789;
+
+  }
+
+  .dataArrow1 {
+    width: 15.15px;
+    height: 10px;
+    margin-left: 5px;
+    overflow: visible;
+  }
+
+  /* Basic table styles */
+.comparatortable {
+  width: 100%; /* Adjust width as needed */
+  border-collapse: separate;
+}
+
+.comparatortable th,
+.comparatortable td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+/* Header styles */
+.comparatortable th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Cell coloring classes */
+.comparatortable th.green {
+  background-color: #62b5b5; /* Green for higher */
+}
+
+.comparatortable th.green:hover {
+  background-color: #4c8c8c; /* Green for higher hover*/
+}
+
+.comparatortable th.red {
+  background-color: #9e1421; /* Red for lower */
+  color: white;
+}
+
+.comparatortable th.red:hover {
+  background-color: #8e121e; /* Red for lower hover */
+  color: white;
+
+}
+
+.comparatortable th.equal {
+  background-color: #add8e6; /* Blue for equal */
+}
+
+.comparatorQuantity,
+.comparatorChiffreDAffaire{
+  padding: 20px;
+  font-size: 20px;
+  font-family: "Hanken Grotesk-Regular", sans-serif;
+  font-weight: 400;
+}
+
+
+.error-message {
+  color: red;
+  font-size: 13px;
+}

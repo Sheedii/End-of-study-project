@@ -1,0 +1,14 @@
+.graphLoader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.chartTop{
+    width: 97%;
+    margin: 1.5%;
+    padding: 2.5%;
+    background-color: #D9DFEE;
+    border-radius: 20px;
+}

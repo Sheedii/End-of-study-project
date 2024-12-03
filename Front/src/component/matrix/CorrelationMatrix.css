@@ -1,0 +1,53 @@
+.group-58,
+.group-58 * {
+  box-sizing: border-box;
+}
+
+.group-58 {
+  width: 215px;
+  height: 31px;
+  position: relative;
+  margin-top: -350px;
+}
+
+.conversations {
+  color: #08074e;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 20px;
+  line-height: 150%;
+  font-weight: 700;
+  position: absolute;
+  right: 0%;
+  left: 17.21%;
+  width: 82.79%;
+  top: calc(50% - 14.5px);
+}
+
+.group-57,
+.group-55 {
+  width: 31px;
+  height: 31px;
+  position: static;
+}
+
+.rectangle-535 {
+  background: #08074e;
+  border-radius: 5px;
+  width: 31px;
+  height: 31px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.vector {
+  width: 7.91%;
+  height: 54.84%;
+  position: absolute;
+  right: 88.84%;
+  left: 3.26%;
+  bottom: 22.58%;
+  top: 22.58%;
+  overflow: visible;
+}

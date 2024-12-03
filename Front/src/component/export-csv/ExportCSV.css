@@ -1,0 +1,47 @@
+.default-csv,
+.default-csv * {
+  box-sizing: border-box;
+  top:-150px;
+}
+.default-csv {
+  border-radius: 20px;
+  width: 138px;
+  height: 61px;
+  position: relative;
+  overflow: hidden;
+  margin-left: 900px;
+  margin-top: -200px;
+  cursor: pointer;
+}
+.rectangle-csv {
+  border-radius: 19.28px;
+  border-style: solid;
+  border-color: #08074e;
+  border-width: 2.93px;
+  width: 138px;
+  height: 35px;
+  position: absolute;
+  left: -4px;
+  bottom: 10px;
+  top: 10px;
+  cursor: pointer;
+}
+.export-reseults-csv {
+  color: #08074e;
+  text-align: left;
+  font-family: "HankenGrotesk-Regular", sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  position: absolute;
+  left: 13px;
+  bottom: 10px;
+  top: 10px;
+  width: 102px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.export-reseults-csv:active {
+  transform: translateY(1px); /* Move the button slightly down when clicked */
+}

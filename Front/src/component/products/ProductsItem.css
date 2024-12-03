@@ -1,0 +1,71 @@
+.product-item {
+    position: relative;
+    width: 300px;
+    height: 42px;
+    right:-480px;
+    top:100px;
+  }
+  
+  .rectangle-4333 {
+    background: #ffffff;
+    border-radius: 20px;
+    width: 287px;
+    height: 70px;
+    right: 120px;
+    top: 0px;
+    margin-left:-30px;
+    box-shadow: 0px 3.05px 7.12px -3.05px rgba(0, 0, 0, 0.3),
+    0px 6.1px 12.21px -2.03px rgba(50, 50, 93, 0.25);
+    
+    
+  }
+  .rectangle-549 {
+    background: #08074e;
+    border-radius: 0px 20.35px 20.35px 0px;
+    width: 46px;
+    height: 70px;
+    position: relative;
+    left:250px;
+
+  }
+  
+  ._8666595-x-icon {
+    width: 20px;
+    height: 12px;
+    position: absolute;
+    margin-top: 15px;
+    right: 10px;
+    cursor: pointer;
+    margin-right:-40px;
+
+    
+  }
+  
+  ._8666595-x-icon path {
+    fill: none;
+    stroke: rgb(212, 206, 206);
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+  
+  ._8666595-x-icon:hover {
+    opacity: 0.7;
+  }
+  
+  .product-number {
+    color: #08074e;
+    text-align: left;
+    font-family: "HankenGrotesk-Regular", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    left: 0.5px;
+    bottom: 251.5px;
+    top: 10.5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 25px;
+    
+  }

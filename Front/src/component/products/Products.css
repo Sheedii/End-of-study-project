@@ -1,0 +1,133 @@
+.products-wrapper {
+  border-radius: 20px;
+  border: 0px solid #0a0909; /* Add border for the rectangle */
+  padding: 80px; /* Optional: Add padding for spacing */
+  overflow: auto; /* Ensure contents stay within the rectangle */
+  height:750px;
+  top:20px;
+  
+}
+.products-container,
+.products-container * {
+  box-sizing: border-box;
+  
+}
+
+.products-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  margin-left: 100px;
+  margin-top: 70px;
+  
+  
+}
+
+.products-inner-container {
+  position: relative;
+}
+
+.group-21,
+.group-20,
+.group-19 {
+  display: flex;
+  gap: 32px;
+}
+
+.group-13,
+.group-14,
+.group-15,
+.group-16,
+.group-17,
+.group-18 {
+  position: relative;
+}
+
+.rectangle-431,
+.rectangle-432,
+.rectangle-433,
+.rectangle-434,
+.rectangle-435,
+.rectangle-436 {
+  background: #d9d9d9;
+  border-radius: 20px;
+  width: 120px;
+  height: 42px;
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
+
+._8666595-x-icon,
+._8666595-x-icon2,
+._8666595-x-icon3,
+._8666595-x-icon4,
+._8666595-x-icon5,
+._8666595-x-icon6 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 86px;
+  top: 9px;
+  overflow: visible;
+}
+
+.product-1,
+.product-2,
+.product-3,
+.product-4,
+.product-5,
+.product-6 {
+  color: #db1f1f;
+  text-align: left;
+  font-family: "HankenGrotesk-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 13.5px;
+  bottom: 251.5px;
+  top: 10.5px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.button-affinity2 {
+  background-color: #08074e;
+  border-radius: 20px;
+  flex-shrink: 0;
+  width: 104px;
+  height: 42px;
+  position: absolute;
+  overflow: hidden;
+  left: 630px;
+  top: 75px;
+}
+.add-product {
+  color: #ffffff; /* Keep the existing color */
+  text-align: left;
+  font-family: "HankenGrotesk-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 30px;
+  top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer; /* Change cursor to pointer when hovered over */
+
+}
+/* Style for the button when hovered over */
+.add-product:hover {
+  text-decoration: underline; /* Underline text when hovered over */
+}
+
+/* Style for the button when active */
+.add-product:active {
+  transform: translateY(1px); /* Move the button slightly down when clicked */
+} 

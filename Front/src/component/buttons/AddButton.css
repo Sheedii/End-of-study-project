@@ -1,0 +1,45 @@
+.default-add-button,
+.default-add-button * {
+  box-sizing: border-box;
+  
+}
+
+.default-add-button {
+  border-radius: 20px;
+  width: 274px;
+  height: 61px;
+  position: relative;
+  overflow: hidden;
+  margin-left: 900px;
+  margin-top: -200px;
+}
+
+.rectangle-add-button {
+  background: #08074e;
+  border-radius: 20px;
+  width: 104px;
+  height: 42px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.export-add-button {
+  color: #08074e;
+  text-align: left;
+  font-family: "HankenGrotesk-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 35px;
+  top: 21.75px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+
+.export-add-button:active {
+  transform: translateY(1px); /* Move the button slightly down when clicked */
+}

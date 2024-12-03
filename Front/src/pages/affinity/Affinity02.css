@@ -1,0 +1,24 @@
+/* Affinity02.css */
+.product-lines-container {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    margin-top:100px;
+    font-family: 'Arial Black', sans-serif; /* Use Arial Black font */
+
+
+  }
+  
+  .product-lines {
+    margin-right: 30px; /* Add some spacing between text and component */
+    margin-top:50px;
+    margin-left:50px;
+    font-family: 'Arial Black', sans-serif; /* Use Arial Black font */
+    
+
+}
+.timeline{
+    margin-right: 30px; /* Add some spacing between text and component */
+    margin-top:50px;
+    margin-left:500px;
+}
+

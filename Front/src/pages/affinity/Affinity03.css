@@ -1,0 +1,52 @@
+/* affinity03.css */
+.affinity03{
+  position: relative;
+}
+/* Header styling */
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  /* PickProduct styling */
+  .product-container {
+    
+    flex-wrap: wrap;
+ 
+  }
+  
+  .product-card {
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    flex-basis: calc(30% - 20px);
+    flex-grow: 1;
+    margin: 10px;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .product-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  
+  .product-card h3 {
+    margin: 0 0 0.5rem 0;
+  }
+  
+  .product-card p {
+    margin: 0;
+  }
+  .footer-03{
+    position: relative;
+    top:-200px;
+  }

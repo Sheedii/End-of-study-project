@@ -1,0 +1,31 @@
+.forcasting{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 5px;
+    width: 50%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 40px;
+}
+
+.courbe{
+    margin-right: 8%;
+}
+
+.searchlist{
+    width: 280px;
+}
+
+.formlist{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}

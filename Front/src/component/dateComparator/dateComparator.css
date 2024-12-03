@@ -1,0 +1,35 @@
+.twoDates{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fields2{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+    width: 80%;
+  }
+
+  .features2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .serchInput2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 5%;
+    margin-top: 15px;
+}
+
+.error-message2{
+    color: red;
+    margin-left: 20px;
+    font-size: 13px
+}

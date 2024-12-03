@@ -1,0 +1,174 @@
+.DateRangeHeader {
+    color: #8d8dae;
+    text-align: left;
+    font-family: "Hanken Grotesk-Regular", sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+/* Basic table styles */
+.tableContainer {
+    width: 70%;
+    margin: 3% 15% 3% 15%;
+    background: #5f6b8f;
+    border-radius: 20px;
+    border-collapse: separate;
+    border-style: solid;
+    border-color: #8d8dae;
+    border-width: 3px;
+
+}
+
+.comparatortable2 {
+    border-collapse: separate;
+}
+
+.ProductComparator20 {
+    width: 100%;
+    padding: 0 13% 2% 13%;
+    background: #D9DFEE;
+}
+
+
+.comparatortable2 .tableBody {
+    background-color: #d9dfee;
+}
+
+.comparatortable2 .tableBody th,
+.comparatortable2 .titleRows th {
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 2px 1px 0px 1px;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Hanken Grotesk-Semi Bold", sans-serif;
+    font-size: 13px;
+    border-radius: 0px;
+
+}
+
+/* Cell coloring classes */
+.comparatortable2 td.up {
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 2px 1px 0px 1px;
+    border-left: 8px solid #62b5b5;
+    color: #62b5b5;
+    text-align: center;
+    font-family: "Hanken Grotesk-Semi Bold", sans-serif;
+    font-size: 15px;
+    border-radius: 0px;
+    width: 13.5%;
+}
+
+
+
+.comparatortable2 td.down {
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 2px 1px 0px 1px;
+    border-left: 8px solid #9e1421;
+    color: #9e1421;
+    text-align: center;
+    font-family: "Hanken Grotesk-Semi Bold", sans-serif;
+    font-size: 15px;
+    border-radius: 0px;
+    width: 13.5%;
+}
+
+.withShadow{
+    box-shadow: 0px 8px 16px -8px rgba(0, 0, 0, 0.3),
+    0px 13px 27px -5px rgba(50, 50, 93, 0.25);
+}
+
+.tableBodyWrapper {
+    max-height: 370px;
+    overflow-y: scroll;
+    border-radius: 0 0 20px 20px;
+    background: #d9dfee;
+    box-shadow: inset 0 0 5px grey; 
+}
+
+.tableBodyWrapper::-webkit-scrollbar {
+    width: 4px;
+    border-radius: 20px;
+}
+
+.tableBodyWrapper::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+.tableBodyWrapper::-webkit-scrollbar-track {
+    background: transparent;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.tableHeaderWrapper{
+    padding-right: 2px;
+    position: relative;
+    box-shadow: 0px 8px 16px -8px rgba(0, 0, 0, 0.3),
+    0px 13px 27px -5px rgba(50, 50, 93, 0.25);
+}
+
+
+
+
+/* Add your existing table styles here */
+
+.comparatortable2 td.equal {
+    /* up for equal */
+    width: 13.5%;
+}
+
+.titleRows td {
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 2px 1px 0px 1px;
+    text-align: center;
+    font-family: "Hanken Grotesk-Semi Bold", sans-serif;
+    font-size: 15px;
+    border-radius: 0px;
+}
+
+.titleRows .lastone {
+    border-radius: 0 0 20px 0;
+}
+
+.comparatortable2 .titleRows .Datetitre {
+    border-radius: 20px 0 0 0;
+}
+
+.comparatortable2 .titleRows .lastDate {
+    border-radius: 0 0 0 20px;
+}
+
+.comparatortable2 .titleRows .TicketTitre {
+    border-radius: 0 20px 0 0;
+    width: 27%;
+}
+
+.comparatortable2 .titleRows .Tablehead {
+    border-top: none;
+}
+
+.comparatortable2 .titleRows th {
+    border-left: none;
+}
+
+.comparatortable2 .titleRows .noRight {
+    border-right: none;
+}
+
+.colonne1 {
+    width: 19%;
+    background: #5f6b8f;
+}
+
+.head2 {
+    width: 27%;
+}
+.ProductTableLoader{
+    height: 530px;
+}

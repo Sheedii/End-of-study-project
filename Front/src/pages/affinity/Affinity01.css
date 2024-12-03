@@ -1,0 +1,35 @@
+/* Affinity01.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .affinity01 {
+    /* Your styles for the content of Affinity01 */
+  }
+
+  .rectangle {
+    margin-top: 300px; /* Adjust margin-top as needed */
+    margin-right: auto;
+    margin-left: 500px;
+  }
+  
+
+  .are-you-looking-for-cross-product-line-analysis {
+    color: #000000;
+    text-align: center;
+    font-family: "HankenGrotesk-Regular", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    text-transform: uppercase;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .footer-01{
+    top:-1400px;
+    position: relative;
+
+  }
