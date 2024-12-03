@@ -1,6 +1,6 @@
 # My Final Year Project
 
-Welcome to **My Github**, a system developed to help retail businesses analyze sales trends and customer behavior. This project is composed of a website and two primary components designed to provide actionable insights and improve store management. Below, you will find a comprehensive guide to the system, its features, and how to set it up.
+Welcome to **My Github**, this is a system developed to help retail businesses analyze sales trends and customer behavior. This project is composed of a website and two primary components designed to provide actionable insights and improve store management. Below, you will find a comprehensive guide to the system, its features, and how to set it up.
 
 ---
 
