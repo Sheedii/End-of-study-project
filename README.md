@@ -55,8 +55,9 @@ These tools help store managers:
 
 ## Technologies Used
 
-- **Frontend:** React.js
-- **Backend:** Spring Boot
+- **Frontend:** React.js <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40" height="40"/> 
+- **Backend:** Spring Boot <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="40" height="40"/>
+- **Data Base:** Mongodb <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="40" height="40"/>
 
 ---
 
